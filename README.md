@@ -41,6 +41,8 @@ you will obtain a spatially disjoint `Indian Pines` dataset for training and val
 - `train split`: http://dase.grss-ieee.org/index.php
   - `indianpines_ts.tif` provides ground truth for training.
 
+#### Train/test split
+
 Note that DASE train test split has something wrong with class 7 and 11 (see below for their names). As after applying `19920612_AVIRIS_IndianPine_Site3_gr.tif` and `indianpines_ts.tif` together, it is obvious that all 26 pixels of `Grass/pasture-mowed` are for training (0 pixel for testing), and there are 10 pixel more in `Soybeans-min` for training. These wrong 10 pixels are
 
 - x: 108, 109, 110, 111, 108, 109, 110, 111, 110, 111
